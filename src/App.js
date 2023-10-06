@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// USED PROPS FOR THIS BUTTON
+
+// import "./App.css";
+// import Button from "./components/Button";
+// import React from "react";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <Button color="greenColor" text="HTML BUTTON" />
+//         <Button text="CSS BUTTON" color="greenColors" />
+//         <Btnstrap />
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import "./App.css";
+import React from "react";
+import Websitebutton from "./components/Websitebutton";
+import Forms from "./components/Forms";
+// import App from "./Pages";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Forms />
     </div>
   );
 }
